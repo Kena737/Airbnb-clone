@@ -1,5 +1,6 @@
 import React from 'react'
 import ImgSections from './ImgSections'
+import ProdunctDetailed from './ProdunctDetailed'
 
 const Product = () => {
     return (
@@ -29,6 +30,12 @@ const Product = () => {
                 </div>
             </div>
             <ImgSections />
+            <div className='flex'>
+                <div className='w-8/12'>
+                    <ProdunctDetailed />
+                </div>
+                <div></div>
+            </div>
         </>
     )
 }

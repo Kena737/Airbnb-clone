@@ -1,5 +1,6 @@
 import React from 'react'
 import ImgSections from './ImgSections'
+import PaymentCard from './PaymentCard'
 import ProdunctDetailed from './ProdunctDetailed'
 
 const Product = () => {
@@ -34,7 +35,9 @@ const Product = () => {
                 <div className='w-8/12'>
                     <ProdunctDetailed />
                 </div>
-                <div></div>
+                <div>
+                    <PaymentCard />
+                </div>
             </div>
         </>
     )

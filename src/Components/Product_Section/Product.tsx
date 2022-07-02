@@ -31,7 +31,7 @@ const Product = () => {
                 </div>
             </div>
             <ImgSections />
-            <div className='flex'>
+            <div className='flex max-w-screen-xl mx-auto px-20 justify-between'>
                 <div className='w-8/12'>
                     <ProdunctDetailed />
                 </div>

@@ -3,7 +3,7 @@ import React from 'react'
 const ProdunctDetailed = () => {
     return (
         <>
-            <div className='flex justify-between mx-32 my-10'>
+            <div className='flex justify-between my-10'>
                 <div className='text-left'>
                     <h1 className='text-[22px] font-semibold text-gray-800 pt-3 py-1'>Dome hosted by Dorothy</h1>
                     <ol className='flex text-lg font-normal'>
@@ -18,7 +18,7 @@ const ProdunctDetailed = () => {
                 <hr />
             </div>
 
-            <div className='flex mx-32 my-7 flex-col'>
+            <div className='flex  my-7 flex-col'>
                 <div className='my-3'>
                     <div className='flex items-center'>
                         <span>
@@ -45,7 +45,7 @@ const ProdunctDetailed = () => {
                 <hr />
             </div>
             {/* aircover section */}
-            <div className='mx-32 my-7'>
+            <div className=' my-7'>
                 <div className='my-7'>
                     <img src="https://bit.ly/3nmohkZ" className='w-[123.16px] h-[26px]' alt="" />
                 </div>
@@ -54,13 +54,13 @@ const ProdunctDetailed = () => {
                     <h3 className='text-left my-3 text-xl font-medium underline'>Learn more</h3>
                 </div>
             </div>
-            <div className='mx-32 my-7'>
+            <div className=' my-7'>
                 <hr />
                 <p className='text-left mt-5 text-lg text-gray-800 '>Adaaran Club Rannalhi is featured among the best hotels in Maldives and sits exclusively at the tip of the South Male atoll within the exotic collection of islands known as the Maldives. Its unique location offers access to pristine beaches, excellent scuba diving opportunities and a relaxed environment with easy access to the capital city of Male.</p>
                 <div>
                 </div>
             </div>
-            <div className='mx-32 my-7'>
+            <div className=' my-7'>
                 <hr />
                 <h1 className='text-left my-10 text-2xl font-semibold text-gray-900'>Where you'll sleep</h1>
 
@@ -77,7 +77,7 @@ const ProdunctDetailed = () => {
                 </div>
             </div>
 
-            <div className='mx-32 my-7'>
+            <div className=' my-7'>
                 <hr />
                 <h1 className='text-left mt-10 mb-4 text-2xl font-semibold text-gray-900'>What this place offers</h1>
 

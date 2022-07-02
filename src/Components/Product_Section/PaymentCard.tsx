@@ -2,9 +2,9 @@ import React from 'react'
 
 const PaymentCard = () => {
     return (
-        <div className='my-14'>
-            <div className='border w-96 p-7 rounded-xl shadow-lg '>
-                <h1 className='text-lg font-thin'><span className='font-semibold text-3xl'>₹42,555 </span>night</h1>
+        <div className='my-14 '>
+            <div className='border w-96 p-7 rounded-xl shadow-lg'>
+                <h1 className='text-lg font-thin'><span className='font-semibold text-3xl text-gray-800 px-1'>₹42,555</span>night</h1>
 
                 <div className='border rounded-xl mt-6 mb-4 border-gray-400'>
                     <div className='flex justify-between'>

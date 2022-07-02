@@ -2,7 +2,7 @@ import React from 'react'
 
 const ImgSections = () => {
   return (
-    <div className='flex mx-32 mt-6'>
+    <div className='flex mt-6 max-w-screen-xl mx-auto px-20'>
       {/* 560 311 */}
       <div className=''>
         <img className='h-[311px] w-[570px] rounded-l-xl object-cover hover:opacity-90' src="https://bit.ly/3niuD4T" alt="Maldives" />

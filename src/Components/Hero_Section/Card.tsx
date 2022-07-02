@@ -1,9 +1,11 @@
 import React from 'react'
+import { Link } from "react-router-dom";
 
 const Card = () => {
   return (
     
     <div className='flex flex-wrap justify-center my-5'>
+      <Link to={"Product"}>
       <div>
         <div>
           <div className='flex'>
@@ -28,11 +30,12 @@ const Card = () => {
             <div className='text-gray-500 text-left mx-3 text-lg'>
               <p>1,706 kilometers away</p>
               <p>1-6 jul</p>
-              <p className='text-black'><span className='font-semibold'>₹42,169</span> night</p>
+              <p className='text-black'><span className='font-semibold'>₹42,169</span>night</p>
             </div>
           </div>
         </div>
       </div>
+      </Link>
     </div>
   )
 }

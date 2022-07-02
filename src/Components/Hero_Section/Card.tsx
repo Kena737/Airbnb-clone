@@ -3,15 +3,13 @@ import React from 'react'
 const Card = () => {
   return (
     
-    <div className='flex flex-wrap justify-center'>
+    <div className='flex flex-wrap justify-center my-5'>
       <div>
         <div>
           <div className='flex'>
             {/* Heart icon */}
-            {/* <span className='absolute left-72 pt-5'>
-              <svg viewBox="0 0 32 32" xmlns="http://www.w3.org/2000/svg" className='@apply block h-6 overflow-visible stroke-2 w-6' fill="rgba(0, 0, 0, 0.5)" stroke="#FFFFFF" ><path d="m16 28c7-4.733 14-10 14-17 0-1.792-.683-3.583-2.05-4.95-1.367-1.366-3.158-2.05-4.95-2.05-1.791 0-3.583.684-4.949 2.05l-2.051 2.051-2.05-2.051c-1.367-1.366-3.158-2.05-4.95-2.05-1.791 0-3.583.684-4.949 2.05-1.367 1.367-2.051 3.158-2.051 4.95 0 7 7 12.267 14 17z"></path></svg>
-            </span> */}
-              <img className="h-80 w-80 mx-3 my-2 rounded-3xl" src="https://bit.ly/3xVzQ7G" alt="" />
+              {/* <svg viewBox="0 0 32 32" xmlns="http://www.w3.org/2000/svg" className='absolute h-6  w-6' fill="rgba(0, 0, 0, 0.5)" stroke="#FFFFFF" ><path d="m16 28c7-4.733 14-10 14-17 0-1.792-.683-3.583-2.05-4.95-1.367-1.366-3.158-2.05-4.95-2.05-1.791 0-3.583.684-4.949 2.05l-2.051 2.051-2.05-2.051c-1.367-1.366-3.158-2.05-4.95-2.05-1.791 0-3.583.684-4.949 2.05-1.367 1.367-2.051 3.158-2.051 4.95 0 7 7 12.267 14 17z"></path></svg> */}
+              <img className="w-[24.4rem] md:h-[19rem] md:w-[20rem] object-cover h-[23.4rem] sm:w-80 mx-3 my-2 rounded-3xl" src="https://bit.ly/3xVzQ7G" alt="" />
           </div>
           <div>
             <div className='mx-3 justify-between flex'>
